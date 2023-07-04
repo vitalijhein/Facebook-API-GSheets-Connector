@@ -1,6 +1,6 @@
 
 function main(){
-  var ss = SpreadsheetApp.openById( "1CICwSSaCMzsJCFRmyOYy3Qhjc9xJlwOe8oxvJjSR7aA" );
+  var ss = SpreadsheetApp.openById( "1CICwSSaCMzsJCyOYy3Qhjc9xJlwOe8oxvJjSR7aA" );
 	var sheet = ss.getSheetByName("Tabellenblatt1");
   var lastRow =  sheet.getLastRow();
   
